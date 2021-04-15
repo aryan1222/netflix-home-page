@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import axios from './axios';
-const baseUrl = "https://image.tmdb.org/t/p/original/";
+import {baseUrl} from './baseUrl';
 
 function Row({title, fetchUrl, isLarger}) {
 
@@ -15,8 +15,6 @@ function Row({title, fetchUrl, isLarger}) {
 
         fetchData();
     }, [fetchUrl])
-
-    console.table(movies);
 
     const list = movies.map((movie)=>
         <img 

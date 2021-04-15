@@ -1,12 +1,10 @@
 * {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 body {
-  font-family: "Arial", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
-  background: #000;
+  background: #111;
   color: #fff;
 }
