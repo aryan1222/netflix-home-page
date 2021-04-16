@@ -1,12 +1,11 @@
 import './App.css';
-import Row from'./Row';
-import requests from './requests';
-import Header from './Header';
+import Row from'./components/Row';
+import requests from './services/requests';
+import Header from './components/Header';
 
 function App() {
   return (
     <div className="App">
-
       <Header/>
 
       <Row title="NETFLIX ORIGINALS" fetchUrl={requests.fetchNetflixOriginals} isLarger={true}/>

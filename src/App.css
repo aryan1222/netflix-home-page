@@ -1,3 +1,35 @@
+/* Header - Nav Styles */
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  z-index: 1;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+
+.nav_show {
+  background-color: #111;
+}
+
+.netflix_logo {
+  position: inherit;
+  left: 20px;
+  width: 80px;
+  object-fit: contain;
+}
+
+.netflix_avatar {
+  position: inherit;
+  width: 30px;
+  right: 20px;
+  object-fit: contain;
+}
+
 /* Header - Banner Styles */
 .banner {
   color: #fff;

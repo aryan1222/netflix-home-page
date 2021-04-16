@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import axios from './axios';
-import {baseUrl} from './baseUrl';
+import axios from '../services/axios';
+import {baseUrl} from '../services/baseUrl';
 
 function Row({title, fetchUrl, isLarger}) {
 

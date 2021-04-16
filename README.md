@@ -2,6 +2,6 @@
 
 <br>
 
-![Home](./home1.png)
+![Home](./src/images/home1.png)
 
-![Home](./home2.png)
+![Home](./src/images/home2.png)
